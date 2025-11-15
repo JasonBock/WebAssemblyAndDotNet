@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Project Path="CollatzWithWebAssembly/CollatzWithWebAssembly.csproj" Id="edd62f12-a92c-4bcc-a227-4e706277addb" />
+</Solution>
