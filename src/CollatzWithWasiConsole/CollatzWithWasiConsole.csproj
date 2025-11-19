@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<RuntimeIdentifier>wasi-wasm</RuntimeIdentifier>
+		<OutputType>Exe</OutputType>
+		<PublishTrimmed>true</PublishTrimmed>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Collatz" />		
+	</ItemGroup>
+</Project>

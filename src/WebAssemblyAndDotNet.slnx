@@ -29,5 +29,6 @@
   <Project Path="CollatzWithAvalonia.Desktop/CollatzWithAvalonia.Desktop.csproj" Id="96fd3e1e-0c70-47fb-bdee-625608f14492" />
   <Project Path="CollatzWithAvalonia/CollatzWithAvalonia.csproj" Id="c2302a21-0575-4948-a112-657cfed423e8" />
   <Project Path="CollatzWithBlazorWebAssembly/CollatzWithBlazorWebAssembly.csproj" Id="40aa6393-e0c3-44f7-a062-8b9df78654af" />
+  <Project Path="CollatzWithWasiConsole/CollatzWithWasiConsole.csproj" Id="86938dd9-3f6a-4c4d-b25f-394177351828" />
   <Project Path="CollatzWithWebAssembly/CollatzWithWebAssembly.csproj" Id="edd62f12-a92c-4bcc-a227-4e706277addb" />
 </Solution>
