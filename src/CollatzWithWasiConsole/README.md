@@ -1,4 +1,4 @@
-## .NET WASI app
+## CollatzWithWasiConsole WASI app
 
 ## Build
 ### Default
@@ -9,7 +9,7 @@ You can build the app from Visual Studio or from the command-line:
 dotnet build -c Debug/Release
 ```
 
-After building the app, the result is in the `bin/$(Configuration)/net10.0/wasi-wasm/AppBundle` directory.
+After building the app, the result is in the `artifacts\bin\CollatzWithWasiConsole\$(Configuration)_wasi-wasm\AppBundle` directory.
 
 ### As a single file bundle
 
@@ -29,12 +29,12 @@ Or directly start `wasmtime` from the AppBundle directory:
 
 ```
 cd bin/$(Configuration)/net10.0/wasi-wasm/AppBundle
-wasmtime run --wasi http --dir .  -- dotnet.wasm <name_of_the_main_assembly>
+wasmtime run --wasi http --dir . -- dotnet.wasm CollatzWithWasiConsole
 ```
 
 ### for single file bundle
 
 ```
 cd bin/$(Configuration)/net10.0/wasi-wasm/AppBundle
-wasmtime --wasi http --dir . -- <name_of_the_main_assembly>.wasm
+wasmtime --wasi http --dir . -- CollatzWithWasiConsole.wasm
 ```
