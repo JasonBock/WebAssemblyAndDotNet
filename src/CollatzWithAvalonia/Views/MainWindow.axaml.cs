@@ -2,10 +2,8 @@ using Avalonia.Controls;
 
 namespace CollatzWithAvalonia.Views;
 
-public partial class MainWindow : Window
+public partial class MainWindow 
+	: Window
 {
-   public MainWindow()
-   {
-	  InitializeComponent();
-   }
+	public MainWindow() => this.InitializeComponent();
 }
